@@ -1,0 +1,105 @@
+.form_add{
+    margin: 20rem auto;
+    width: 100rem;
+    padding: 2rem;
+    border-radius: 1.4rem;
+    background-color: #fff;
+}
+.form_add h1{
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    cursor: default;
+}
+img{
+    width: 6rem;
+}
+
+.records{
+    width: 100%;
+    user-select: none;
+    text-align: left;
+}
+
+.records th{
+    height: 40px;
+    font-size: 17px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    border-radius: .5rem;
+    padding-left: 1.2rem;
+}
+
+.records th:first-child{
+    padding: 0;
+    text-align: center;
+    width: 40px;
+}
+
+.records th:last-child{    
+    padding: 0;
+    text-align: center;
+    width: 14.3rem;
+}
+
+.records tr:hover{
+    background-color: var(--Cyano);
+    transition: 0.7s ease;
+    color: #fff;  
+}
+
+.records .b:hover{
+    background-color: #fff;
+}
+
+.inputs_description_detail{
+    padding: .5rem 0;
+}
+
+.inputs_description_detail > input{
+    position: relative;
+    font: inherit;
+    border: #c9c9c9 solid 1px;
+    padding: 1rem 0;
+    border-radius: .5rem;
+    text-indent: 1.5rem;
+    width: 45%;
+}
+
+.btn_salvar{
+    color: #fff;    
+    font: inherit;
+    background-color:var(--Cyano);
+    padding: 1.1rem 2rem;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_salvar:hover{
+    background-color: green;
+    transition: .8s;
+}
+
+.button{
+    border-style: none;
+    height: 40px;
+    padding: 6px 12px;
+    background-color: #11003a69;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s ease;    
+}
+
+.button.green{
+    background-color: green;
+    border-radius: 5px 5px;
+}
+
+.button.red{
+    background-color: red;
+    border-radius: 5px 5px;
+}
+.button:hover{    
+    box-shadow: inset 150px 0 0 #00000098;
+}
+

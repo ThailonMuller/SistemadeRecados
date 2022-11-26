@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Grello.notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <section>
+        <div class="form_add">
+            <h1>Meus Recados <img src="imgs/grello-sem-fundo.png" alt=""></h1>
+            <div class="inputs_description_detail">
+                <input type="text" id="text_description" placeholder="Descrição">
+                <input type="text" id="text_detail" placeholder="Detalhamento">
+                <button id="salvar" type="submit" class="btn_salvar" >Salvar</button>
+            </div>
+            <table id="tableClient" class="records">
+                <td>
+                    <tr>
+                        <th>#</th>
+                        <th>Descrição</th>
+                        <th>Detalhamento</th>
+                        <th>Ação</th>                                                  
+                    </tr>
+                    <tbody id="list">
+                                                                                               
+                    </tbody>
+                </td>
+        </div>
+    </section>
+    <script src="recados.js"></script>
+</body>
+</html>

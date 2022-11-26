@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <div class="form">
+        <span class="form__title">
+            <p id="text_subtitle"><i class="i">Faça seu cadastro em</i></p>
+            <p>Grello.notes</p>
+            <figure><img class="logo_grilo" src="imgs/grello-sem-fundo.png" alt=""></figure>            
+        </span>
+        <form id="create_form">  
+            <div class="form__input">
+                <i class="ri-mail-line"></i>
+                <input id="nameImput" type="text" placeholder="Nome">
+                <span class="bar"></span>
+            </div>         
+            <div class="form__input">
+                <i class="ri-mail-line"></i>
+                <input id="emailInput" type="email" placeholder="E-mail">
+                <span class="bar"></span>
+            </div>
+            <div class="form__input">
+                <i class="ri-lock-line"></i>
+                <input id="passwordInput" type="password" placeholder="Senha">
+                <span class="bar"></span>
+            </div>
+            <div class="form__input">
+                <i class="ri-lock-line"></i>
+                <input id="confirmPasswordInput" type="password" placeholder="Confirme a Senha">
+                <span class="bar"></span>
+            </div>        
+            <button id="criar" class="form__button">Criar</button>
+            <span class="form__switch"><a href="index.html">Voltar</a>
+            </span>
+        </form>
+    </div>
+    <script src="create.js"></script>
+</body>
+</html>
