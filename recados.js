@@ -2,9 +2,6 @@ let data = {
     adicionar: []
 };
 
-const getLocalStorage = () => JSON.parse(localStorage.getItem('db_client')) ?? [];
-const setLocalStorage = (dbClient) => localStorage.setItem("db_client", JSON.stringify(dbClient));
-
 //ADD NOTAS
 const add = document.getElementById("salvar");
 add.addEventListener('click', (e)=>{
@@ -40,8 +37,7 @@ function addnotes(){
                 </td>                             
             </tr>  
           `
-        })
-        
+        })        
     }
     document.getElementById("list").innerHTML = addHtml; 
 }
